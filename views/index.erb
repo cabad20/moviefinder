@@ -7,6 +7,9 @@
   <body>
     <h1> Movie Finder Search Results</h1>
     <h2><%= @movie.title %></h2>
-    <p> <%= @movie.plot %></p>
+    <p><%= @movie.plot %></p>
+    <form>
+     <strong>Enter Title:</strong> <input type="search" name="title">
+    </form>
   </body>
 </html>

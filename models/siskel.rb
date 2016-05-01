@@ -1,6 +1,5 @@
 # siskel.rb
 require 'httparty'
-
 class Siskel
   attr_accessor :title, :year, :rating, :plot
 
